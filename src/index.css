@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:
+    "Sora", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+
+#root {
+  background-color: #020617; /* dark gray / slate */
+  color: #f9fafb; /* near-white */
+  min-height: 100vh;
+}
