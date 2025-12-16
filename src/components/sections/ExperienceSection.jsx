@@ -3,6 +3,8 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { WavyBackground } from "../ui/wavy-background";
 
+const BASE_URL = import.meta.env.BASE_URL || "/";
+
 // Framer Motion animation variants
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },
@@ -43,8 +45,8 @@ export default function ExperienceSection() {
   // Experience data (updated for Shlok)
   const experienceData = {
     wayfair: {
-      title: "Wayfair - Software Engineer Intern",
-      logo: "/WayfairLogo.png",
+      title: "Wayfair - SWE Intern",
+      logo: `${BASE_URL}WayfairLogo.png`,
       description:
         "Wayfair is a global e-commerce company for home goods. On the Knowledge and Generative AI Acceleration team, I evaluate and productionize AI platforms to power internal tools and customer service automation. I work across retrieval, LLM evaluation, clustering, and cloud orchestration.",
       techStack: [
@@ -65,8 +67,8 @@ export default function ExperienceSection() {
       ],
     },
     validus: {
-      title: "Validus Capital - Software Engineer Intern",
-      logo: "/ValidusLogo.png",
+      title: "Validus Capital - SWE Intern",
+      logo: `${BASE_URL}ValidusLogo.png`,
       description:
         "Validus Capital is a fintech platform for SME lending. I worked on digital loan signing workflows, building and testing backend modules that ensure reliability and compliance during the signing process.",
       techStack: ["Java", "Spring/Maven", "MySQL", "Postman"],
@@ -77,8 +79,8 @@ export default function ExperienceSection() {
       ],
     },
     ta: {
-      title: "Teaching Assistant – CS 3650 Computer Systems",
-      logo: "/KhouryLogo.png",
+      title: "Teaching Assistant – Computer Systems",
+      logo: `${BASE_URL}KhouryLogo.png`,
       description:
         "As a Teaching Assistant for Computer Systems at Northeastern, I help students understand low-level software concepts, from C and assembly to memory, concurrency, and performance.",
       techStack: ["C", "Assembly", "Linux", "Computer Systems"],
@@ -89,7 +91,7 @@ export default function ExperienceSection() {
     },
     oasis: {
       title: "Oasis - Lead and Director",
-      logo: "/OasisLogo.png",
+      logo: `${BASE_URL}OasisLogo.png`,
       description:
         "Oasis is Northeastern's software project incubator. As Outreach Director and E-Board member, I connect teams, clubs, and mentors to help student builders ship impactful software, with a special focus on AI and UX projects.",
       techStack: ["Product", "Leadership", "Event Planning"],

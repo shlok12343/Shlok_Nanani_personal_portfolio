@@ -183,7 +183,7 @@ function Navbar() {
           {/* Logo which redirects to top of the screen */}
           <Box
             component="img"
-            src="../../shlok_nanani_logo.png"
+            src={`${import.meta.env.BASE_URL}shlok_nanani_logo.png`}
             alt="Shlok Nanani Logo"
             onClick={scrollToTop}
             sx={{

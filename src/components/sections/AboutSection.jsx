@@ -14,6 +14,8 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import { motion, AnimatePresence } from "framer-motion";
 
+const BASE_URL = import.meta.env.BASE_URL || "/";
+
 // Framer Motion Animations
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -199,7 +201,7 @@ function AboutSection() {
             left: 0,
             right: 0,
             bottom: 0,
-            backgroundImage: "url('/CircuitBoard.svg')",
+            backgroundImage: `url('${BASE_URL}CircuitBoard.svg')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -355,7 +357,7 @@ function AboutSection() {
                     >
                       <Box
                         component="img"
-                        src="../../NortheasternLogo.png"
+                        src={`${BASE_URL}NortheasternLogo.png`}
                         alt="Northeastern University Logo"
                         sx={{
                           width: { xs: 60, md: 80 },

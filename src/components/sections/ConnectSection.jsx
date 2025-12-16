@@ -6,6 +6,8 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import DescriptionIcon from "@mui/icons-material/Description";
 
+const BASE_URL = import.meta.env.BASE_URL || "/";
+
 function ConnectSection() {
   // State management and refs
   const [phase, setPhase] = useState("static");
@@ -410,19 +412,19 @@ function ConnectSection() {
             }}
           >
             {/* Background Stripe Pattern */}
-            <Box
-              sx={{
-                position: "absolute",
-                inset: 0,
-                backgroundImage: "url('/CircleStripes.png')",
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-                opacity: 0.1,
-                pointerEvents: "none",
-                zIndex: 0,
-              }}
-            />
+                <Box
+                  sx={{
+                    position: "absolute",
+                    inset: 0,
+                    backgroundImage: `url('${BASE_URL}CircleStripes.png')`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    opacity: 0.1,
+                    pointerEvents: "none",
+                    zIndex: 0,
+                  }}
+                />
 
             {/* Section heading */}
             <motion.div

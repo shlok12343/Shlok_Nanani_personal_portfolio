@@ -4,6 +4,8 @@ import { Fade } from "react-awesome-reveal";
 import { motion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 
+const BASE_URL = import.meta.env.BASE_URL || "/";
+
 function BouncingIntroObjects() {
   const containerRef = useRef(null);
   const [objects, setObjects] = useState([]);
@@ -21,19 +23,19 @@ function BouncingIntroObjects() {
         {
           id: "img-1",
           type: "image",
-          src: "/OpeningProfile1.png",
+          src: `${BASE_URL}OpeningProfile1.png`,
           radius: 80,
         },
         {
           id: "img-2",
           type: "image",
-          src: "/OpeningProfile2.png",
+          src: `${BASE_URL}OpeningProfile2.png`,
           radius: 80,
         },
         {
           id: "img-3",
           type: "image",
-          src: "/team_picture.png",
+          src: `${BASE_URL}team_picture.png`,
           radius: 90,
         },
         {

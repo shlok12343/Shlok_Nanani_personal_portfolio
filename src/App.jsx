@@ -4,7 +4,7 @@ import Layout from "./components/layout/Layout";
 
 function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <div>
         <Navbar />
         <Routes>
