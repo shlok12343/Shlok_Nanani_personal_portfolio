@@ -52,7 +52,11 @@ function Navbar() {
 
   // Link to open resume in a new tab
   const openResume = () => {
-    window.open("/Shlok N Resume.pdf", "_blank");
+    window.open(
+      "https://drive.google.com/file/d/1pf7GNjYQGMWStla1APvEMsHeVFKzuwCs/view?usp=sharing",
+      "_blank",
+      "noopener,noreferrer"
+    );
   };
 
   // Navbar Sections

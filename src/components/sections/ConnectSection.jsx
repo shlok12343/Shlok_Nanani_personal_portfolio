@@ -115,7 +115,7 @@ function ConnectSection() {
     {
       name: "Resume",
       value: "Shlok N Resume (PDF)",
-      href: "/Shlok N Resume.pdf",
+      href: "https://drive.google.com/file/d/1pf7GNjYQGMWStla1APvEMsHeVFKzuwCs/view?usp=sharing",
       icon: DescriptionIcon,
     },
   ];
