@@ -1,6 +1,7 @@
 import AboutSection from "../sections/AboutSection";
 import WelcomeSection from "../sections/WelcomeSection";
 import SkillsSection from "../sections/SkillsSection";
+import RecommendationsSection from "../sections/RecommendationsSection";
 import ExperienceSection from "../sections/ExperienceSection";
 import ProjectsSection from "../sections/ProjectsSection";
 import ConnectSection from "../sections/ConnectSection";
@@ -15,6 +16,7 @@ export default function Layout() {
       <ExperienceSection />
       <ProjectsSection />
       <SkillsSection />
+      <RecommendationsSection />
       <ConnectSection />
       <Footer />
     </div>

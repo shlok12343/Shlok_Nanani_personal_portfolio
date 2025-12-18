@@ -103,7 +103,7 @@ function ConnectSection() {
     {
       name: "LinkedIn",
       value: "shlok-nanani",
-      href: "https://linkedin.com/in/shlok-nanani",
+      href: "https://www.linkedin.com/in/shlok-nanani-91608a219/",
       icon: LinkedInIcon,
     },
     {
