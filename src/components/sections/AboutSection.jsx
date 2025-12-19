@@ -51,7 +51,7 @@ const pastClasses = [
 ];
 
 // Current Interests
-const interests = ["Teaching", "AI & ML", "Hackathons", "Reading", "Fitness"];
+const interests = [ "Fitness","Teaching","Hackathons","Reading"];
 
 // Memoized course chip component (so we dont re-render all the courses every time)
 const CourseChip = memo(({ course, isCurrent }) => (
@@ -290,8 +290,9 @@ function AboutSection() {
                       <Box component="span" sx={{ fontStyle: "italic" }}>
                         Artificial Intelligence
                       </Box>
-                      . I enjoy building intelligent systems and tools that turn
+                      . I enjoy building systems and tools that turn
                       data into real-world impact.
+                      There is a lot I don’t know and am still learning, but one thing I do know is that tackling complex and challenging problems genuinely fascinates me.
                     </Typography>
                     <Box
                       sx={{
@@ -313,8 +314,7 @@ function AboutSection() {
                           software engineering and AI-focused internship or
                           co-op roles
                         </Box>{" "}
-                        where I can apply modern ML and systems skills to
-                        impactful problems.
+                        where I can solve impactful problems.
                       </Typography>
                     </Box>
                   </Stack>

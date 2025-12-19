@@ -10,7 +10,7 @@ const PROJECTS = [
     title: "Extractive & Abstractive Text Summarization Research",
     description:
       "Researched and implemented ML models for both extractive and abstractive text summarization, comparing approaches on real-world corpora.",
-    techStack: ["Python", "NLP", "ML Models"],
+    techStack: ["Python", "Scikit-learn"],
     githubUrl:
       "https://github.com/shlok12343/extractive-and-abstractive-text-summarization-with-ML-models-research",
   },
@@ -19,7 +19,7 @@ const PROJECTS = [
     title: "Q-Learning Project",
     description:
       "Built a Q-learning agent that learns optimal policies through trial and error in a reinforcement learning environment.",
-    techStack: ["Python", "Reinforcement Learning"],
+    techStack: ["Python"],
     githubUrl: "https://github.com/shlok12343/Q_learning_project",
   },
   {
@@ -27,7 +27,7 @@ const PROJECTS = [
     title: "CNN & FNN for Image Classification",
     description:
       "Implemented and compared feedforward and convolutional neural networks on image classification tasks.",
-    techStack: ["Python", "Neural Networks", "CNN/FNN"],
+    techStack: ["Python","TensorFlow"],
     githubUrl:
       "https://github.com/shlok12343/Neural-Networks-CNN-FNN-for-the-task-of-image-classification",
     },
@@ -36,7 +36,7 @@ const PROJECTS = [
     title: "Aviation Wildlife EDA & Modeling",
     description:
       "Exploratory data analysis and predictive modeling on aviation–wildlife incidents to understand risk and patterns.",
-    techStack: ["Python", "Pandas", "EDA", "Modeling"],
+    techStack: ["Python"],
     githubUrl:
       "https://github.com/shlok12343/AVIATION-WILDLIFE-EDA-AND-MODELING",
     },
@@ -45,7 +45,7 @@ const PROJECTS = [
     title: "Social Question Answer Application",
         description:
       "A social Q&A application where users can post questions, answer, and interact over shared topics.",
-    techStack: ["Java", "Data Structures", "Backend Logic"],
+    techStack: ["Python", "Django"],
     githubUrl:
       "https://github.com/shlok12343/Social-Question-Answer-Application",
   },
@@ -54,7 +54,7 @@ const PROJECTS = [
     title: "Stock Trading Model",
         description:
       "Modeled and evaluated trading strategies using historical stock data and quantitative features.",
-    techStack: ["Python", "Time Series", "Finance"],
+    techStack: ["Java"],
     githubUrl: "https://github.com/shlok12343/Stock-Trading-Model",
   },
   {
@@ -62,7 +62,7 @@ const PROJECTS = [
     title: "Robot Dog",
         description:
       "Designed and programmed behavior for a robot dog, exploring control logic and interactive movement.",
-    techStack: ["Python", "Robotics", "Control Logic"],
+    techStack: ["C++"],
     githubUrl: "https://github.com/shlok12343/robot-dog",
         },
   {
@@ -70,7 +70,7 @@ const PROJECTS = [
     title: "Recipe Generator",
         description:
       "An AI-assisted recipe generator that suggests dishes based on ingredients and preferences.",
-    techStack: ["Python", "NLP", "Recommendation"],
+    techStack: ["Python", "React"],
     githubUrl: "https://github.com/shlok12343/Recipe-Generator",
   },
 ];

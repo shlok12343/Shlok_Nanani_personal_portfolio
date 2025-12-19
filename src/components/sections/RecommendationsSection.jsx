@@ -21,15 +21,15 @@ const staggerContainer = {
 const RECOMMENDATIONS = [
   {
     name: "Jordan Silbert",
-    title: "Software Engineer at Wayfair",
-    relationship: "Senior teammate on the Knowledge and Generative AI Acceleration team",
+    title: "Senior Software Engineer at Wayfair",
+    relationship: "Senior teammate on the Knowledge and Generative AI Acceleration team at Wayfair",
     quote:
       "I had the pleasure of overseeing Shlok during his time as a co-op at Wayfair. From the start, he demonstrated a strong desire to learn and get involved, never shying away from larger, more complex tasks. Shlok is incredibly thorough and detail-oriented, and his natural curiosity was a huge asset. This was especially clear in his proactive interest in experimenting with new tooling and staying current with the ever-evolving AI space. His work on new documentation wasn't just about reading; he truly understood the material and was able to ask insightful questions and make educated suggestions that directly benefited our team's decision-making. In addition to his strong work ethic and attention to detail, Shlok's adaptability was truly impressive. He joined a newly formed team that was still figuring out its processes and direction, and handled several pivots with a consistently positive attitude. His combination of a strong work ethic and a proactive, adaptable attitude makes him a standout.",
   },
   {
     name: "Saurabh K Singh",
-    title: "Principal Data Engineer at Yahoo",
-    relationship: "Senior teammate during Shlok's Wayfair co-op",
+    title: "Lead Data Engineer at Wayfair",
+    relationship: "Senior teammate on the Knowledge and Generative AI Acceleration team at Wayfair",
     quote:
       "I had the pleasure of working with Shlok during his co-op term on our team, and he made a strong impression right from the start. He was a quick learner who onboarded swiftly and contributed meaningfully by building several evaluations early on. His dedication, curiosity, and eagerness to learn made him a true asset to the team. Shlok consistently showed interest in exploring new tools and staying up to date with AI trends, often asking thoughtful and insightful questions. I’m confident he has a bright future ahead and would be a great addition to any team.",
   },

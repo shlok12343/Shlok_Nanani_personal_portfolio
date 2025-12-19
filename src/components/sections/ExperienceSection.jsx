@@ -42,13 +42,13 @@ export default function ExperienceSection() {
   // Preset selected experience
   const [selectedExperience, setSelectedExperience] = useState("wayfair");
 
-  // Experience data (updated for Shlok)
   const experienceData = {
     wayfair: {
       title: "Wayfair - SWE Intern",
       logo: `${BASE_URL}WayfairLogo.png`,
       description:
-        "Wayfair is a global e-commerce company for home goods. On the Knowledge and Generative AI Acceleration team, I evaluate and productionize AI platforms to power internal tools and customer service automation. I work across retrieval, LLM evaluation, clustering, and cloud orchestration.",
+        "Wayfair is a global e-commerce company for home goods. I was on the Knowledge and Generative AI Acceleration team.",
+      duration: "6 months",
       techStack: [
         "Python",
         "Vertex AI",
@@ -58,46 +58,58 @@ export default function ExperienceSection() {
         "BigQuery",
         "Apache Airflow",
         "Terraform",
+        "Docker",
+        "Google Agent Developer Kit",
+        "Google Kubernetes Engine",
       ],
       achievements: [
-        "Evaluated enterprise AI platforms (Glean, Google Agentspace, Moveworks) using LLM-as-a-judge for internal tools.",
-        "Engineered an end-to-end clustering pipeline with 40+ model combinations; achieved a Silhouette Score of 0.76.",
-        "Improved categorization accuracy of service tickets by 25% with Vertex AI prompt optimization.",
-        "Provisioned cloud infrastructure and deployed containerized AI services on GCP (GKE, BigQuery).",
+        "Evaluated enterprise AI platforms (Glean, Google Agentspace, Moveworks) using the LLM-as-a-judge method to ensure robust model performance for customer service automation insights for internal AI tools.",
+        "Used Vertex AI prompt optimizer to improve categorization of service tickets, boosting classification accuracy by 25%.",
+        "Engineered an end-to-end clustering pipeline using 6 embedding models, 5 dimensionality reduction techniques, and clustering algorithms to evaluate the performance of 40+ model combinations in grouping semantically similar text.",
+        "Achieved a high Silhouette Score of 0.76 by vectorizing text with TF-IDF, applying PCA to reduce dimensions to 80, and clustering with KMeans (k=50).",
+        "Provisioned cloud infrastructure using Terraform and deployed containerized AI services on GCP (BigQuery, GKE).",
+        "Built and orchestrated a data pipeline using Apache Airflow on Google Cloud Composer.",
+        "Built AI-powered RAG chatbots using LangChain and Google ADK to deliver intelligent enterprise knowledge."
       ],
     },
     validus: {
       title: "Validus Capital - SWE Intern",
       logo: `${BASE_URL}ValidusLogo.png`,
       description:
-        "Validus Capital is a fintech platform for SME lending. I worked on digital loan signing workflows, building and testing backend modules that ensure reliability and compliance during the signing process.",
-      techStack: ["Java", "Spring/Maven", "MySQL", "Postman"],
+        "Validus Capital is a fintech platform for SME lending. My team owned worked on digital loan workflows",
+      duration: "3 months",
+      techStack: ["Java", "Spring", "Maven", "MySQL", "Postman"],
       achievements: [
-        "Designed and tested full-stack modules for error detection in digital loan signing workflows.",
-        "Implemented functions to validate inputs and throw meaningful exceptions during signing.",
-        "Queried MySQL to authenticate users and debug production issues across multi-API integrations.",
+        "Designed and tested full-stack modules for increasing error detection accuracy in digital loan signing workflows by 20%.",
+        "Implemented 30+ functions to validate inputs and throw meaningful exceptions during signing.",
+        "Wrote 50+ queries to authenticate loan application and user data during the signing process.",
+        "Employed Postman to test and troubleshoot multi-API integrations."
       ],
     },
     ta: {
       title: "Teaching Assistant – Computer Systems",
       logo: `${BASE_URL}KhouryLogo.png`,
       description:
-        "As a Teaching Assistant for Computer Systems at Northeastern, I help students understand low-level software concepts, from C and assembly to memory, concurrency, and performance.",
-      techStack: ["C", "Assembly", "Linux", "Computer Systems"],
+        "Teaching Assistant for Computer Systems course at Northeastern University.Focuses on low-level C and assembly, operating system abstractions, and concurrent execution.",
+      duration: "4+ months (ongoing)",
+      techStack: ["C", "Assembly", "Linux"],
       achievements: [
-        "Grade homework and assessments for a large undergraduate cohort.",
-        "Help students debug systems code and deepen their understanding during office hours.",
+        "helped the instructor create 8 assignments and projects like a Unix shell, a multithreaded server, and low-level memory and concurrency systems in C.",
+        "During my 40+ hours of office hours helped students with undersatanding memory hierarchy, process and thread management, synchronization, and file systems for real systems-level engineering",
+        "Graded homework and assessments for a large undergraduate cohort.",
       ],
     },
     oasis: {
-      title: "Oasis - Lead and Director",
+      title: "Oasis - Lead and Developer",
       logo: `${BASE_URL}OasisLogo.png`,
       description:
-        "Oasis is Northeastern's software project incubator. As Outreach Director and E-Board member, I connect teams, clubs, and mentors to help student builders ship impactful software, with a special focus on AI and UX projects.",
-      techStack: ["Product", "Leadership", "Event Planning"],
+        "Oasis is a student lead Northeastern's software project incubator for undergraduates and graduate students. As Director and part of the E-Board",
+      duration: "1.5 years",
+      techStack: ["TypeScript", "SQL", "React", "Tailwind CSS", "Python"],
       achievements: [
-        "Organized cross-club events to foster interdisciplinary software projects.",
-        "Mentored student teams on scoping, design decisions, and AI/UX tradeoffs.",
+        "Led student teams of 3-4 members to build impactful e-commerce and social media software projects.",
+        "Planned and hosted 10+ collaborative events with student clubs and software companies to expand networking and collaboration opportunities.",
+        "Developed web app with TypeScript, React, and SQL",
       ],
     },
   };
@@ -432,29 +444,56 @@ export default function ExperienceSection() {
                       />
                     </Box>
 
-                    {/* Title and description */}
+                    {/* Title, duration and description */}
                     <Box
                       sx={{
                         flex: "0 0 auto",
                         padding: "1.5vh 0",
                       }}
                     >
-                      <Typography
+                      <Box
                         sx={{
-                          color: "#10b981",
-                          fontSize: {
-                            xs: "18px",
-                            sm: "20px",
-                            md: "1.5vw",
-                            lg: "1.5vw",
-                          },
-                          fontWeight: "600",
-                          marginBottom: "1vh",
-                          letterSpacing: "1px",
+                          display: "flex",
+                          justifyContent: "space-between",
+                          alignItems: "baseline",
+                          gap: 1.5,
+                          flexWrap: "wrap",
                         }}
                       >
-                        {currentExperience.title}
-                      </Typography>
+                        <Typography
+                          sx={{
+                            color: "#10b981",
+                            fontSize: {
+                              xs: "18px",
+                              sm: "20px",
+                              md: "1.5vw",
+                              lg: "1.5vw",
+                            },
+                            fontWeight: "600",
+                            letterSpacing: "1px",
+                          }}
+                        >
+                          {currentExperience.title}
+                        </Typography>
+                        {currentExperience.duration && (
+                          <Typography
+                            sx={{
+                              fontSize: {
+                                xs: "10px",
+                                sm: "11px",
+                                md: "0.7vw",
+                                lg: "0.7vw",
+                              },
+                              color: "rgba(148,163,184,0.9)",
+                              textTransform: "uppercase",
+                              letterSpacing: "0.16em",
+                              whiteSpace: "nowrap",
+                            }}
+                          >
+                            {currentExperience.duration}
+                          </Typography>
+                        )}
+                      </Box>
                       <Typography
                         sx={{
                           color: "rgba(209, 213, 219, 0.9)",
@@ -472,12 +511,13 @@ export default function ExperienceSection() {
                       </Typography>
                     </Box>
 
-                    {/* Tech stack and achievements */}
+                    {/* Tech stack and achievements (stacked: tech on top, achievements below) */}
                     <Box
                       sx={{
                         flex: 1,
                         display: "flex",
-                        gap: "1.5vw",
+                        flexDirection: "column",
+                        gap: "1.5vh",
                         marginTop: "auto",
                       }}
                     >

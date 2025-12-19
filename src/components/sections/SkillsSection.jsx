@@ -139,7 +139,9 @@ const FRAMEWORKS = [
   "Google ADK",
   "Google Cloud Platform",
   "TensorFlow", 
-  "PyTorch"
+  "PyTorch",
+  "Scikit-learn",
+  "Google Agent Developer Kit"
 ];
 
 const TOOLS = [
@@ -155,8 +157,12 @@ const TOOLS = [
   "Vertex AI",
   "Apache Airflow",
   "Terraform",
-  "VS Code",
+  "Google Cloud Storage",
   "Google BigQuery",
+  "Google Kubernetes Engine",
+  "Terraform",
+  "Docker",
+  "Apache Airflow",
 ];
 
 // Style Configurations for stuff
