@@ -53,7 +53,7 @@ function Navbar() {
   // Link to open resume in a new tab
   const openResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1pf7GNjYQGMWStla1APvEMsHeVFKzuwCs/view?usp=sharing",
+      "https://drive.google.com/file/d/1tjM_lJ2NKRh5Uhzsec5dpBAXAHqL4lut/view?usp=sharing",
       "_blank",
       "noopener,noreferrer"
     );

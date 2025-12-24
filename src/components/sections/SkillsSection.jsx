@@ -122,7 +122,7 @@ const LANGUAGES = [
   "C++",
   "C",
   "Assembly",
-  "JavaScript",
+  "TypeScript",
   "HTML",
   "CSS",
   "SQL",

@@ -23,6 +23,14 @@ const PROJECTS = [
     githubUrl: "https://github.com/shlok12343/Q_learning_project",
   },
   {
+    emoji: "🎭",
+    title: "Face Filter Advisor + Studio",
+    description:
+      "An AI-powered Face Filter Advisor chat that recommends a filter based on your context, plus a Face Filter Studio that generates the asset and previews it live on your webcam.",
+    techStack: ["React", "TypeScript"],
+    githubUrl: "https://github.com/shlok12343/Face-Filter-Advisor",
+  },
+  {
     emoji: "🧠",
     title: "CNN & FNN for Image Classification",
     description:

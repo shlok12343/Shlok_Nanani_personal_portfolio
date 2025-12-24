@@ -115,7 +115,7 @@ function ConnectSection() {
     {
       name: "Resume",
       value: "Shlok N Resume (PDF)",
-      href: "https://drive.google.com/file/d/1pf7GNjYQGMWStla1APvEMsHeVFKzuwCs/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1tjM_lJ2NKRh5Uhzsec5dpBAXAHqL4lut/view?usp=sharing",
       icon: DescriptionIcon,
     },
   ];
@@ -412,19 +412,19 @@ function ConnectSection() {
             }}
           >
             {/* Background Stripe Pattern */}
-                <Box
-                  sx={{
-                    position: "absolute",
-                    inset: 0,
+            <Box
+              sx={{
+                position: "absolute",
+                inset: 0,
                     backgroundImage: `url('${BASE_URL}CircleStripes.png')`,
-                    backgroundRepeat: "no-repeat",
-                    backgroundPosition: "center",
-                    backgroundSize: "cover",
-                    opacity: 0.1,
-                    pointerEvents: "none",
-                    zIndex: 0,
-                  }}
-                />
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                opacity: 0.1,
+                pointerEvents: "none",
+                zIndex: 0,
+              }}
+            />
 
             {/* Section heading */}
             <motion.div
