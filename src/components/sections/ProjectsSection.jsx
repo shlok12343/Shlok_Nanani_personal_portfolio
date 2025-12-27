@@ -35,7 +35,7 @@ const PROJECTS = [
     title: "Search Indexing Engine",
     description:
       "Implemented a search indexing engine that tokenizes documents, builds an inverted index, and supports fast ranked search over text data.",
-    techStack: ["Python"],
+    techStack: ["C++"],
     githubUrl: "https://github.com/shlok12343/search-indexing-engine",
   },
   {
