@@ -31,6 +31,14 @@ const PROJECTS = [
     githubUrl: "https://github.com/shlok12343/Face-Filter-Advisor",
   },
   {
+    emoji: "🔍",
+    title: "Search Indexing Engine",
+    description:
+      "Implemented a search indexing engine that tokenizes documents, builds an inverted index, and supports fast ranked search over text data.",
+    techStack: ["Python"],
+    githubUrl: "https://github.com/shlok12343/search-indexing-engine",
+  },
+  {
     emoji: "🧠",
     title: "CNN & FNN for Image Classification",
     description:
