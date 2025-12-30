@@ -1,4 +1,4 @@
-# Shlok Nanani – Personal Portfolio
+# Shlok Nanani – Personal Website
 
 This is my personal portfolio website built with React and Vite.  
 It showcases my background, experience, projects, and skills with a modern, animated UI.
