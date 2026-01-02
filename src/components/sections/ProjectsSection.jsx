@@ -39,6 +39,15 @@ const PROJECTS = [
     githubUrl: "https://github.com/shlok12343/search-indexing-engine",
   },
   {
+    emoji: "📁",
+    title: "User-Space File System with FUSE",
+    description:
+      "Implemented a user-space file system driver using FUSE in C and C++, including inode/bitmap management, block allocation, and a custom virtual filesystem interface.",
+    techStack: ["C", "C++"],
+    githubUrl:
+      "https://github.com/shlok12343/user-space-file-system-implemented-with-FUSE",
+  },
+  {
     emoji: "🧠",
     title: "CNN & FNN for Image Classification",
     description:
