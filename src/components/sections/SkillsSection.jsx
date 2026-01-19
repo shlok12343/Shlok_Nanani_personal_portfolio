@@ -133,11 +133,9 @@ const FRAMEWORKS = [
   "LangGraph",
   "BERT",
   "React",
-  "Node.js",
   "Express",
   "Django",
   "Google ADK",
-  "Google Cloud Platform",
   "TensorFlow", 
   "PyTorch",
   "Scikit-learn",
@@ -162,7 +160,6 @@ const TOOLS = [
   "Google Kubernetes Engine",
   "Terraform",
   "Docker",
-  "Apache Airflow",
 ];
 
 // Style Configurations for stuff
